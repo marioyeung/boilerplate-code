@@ -1,4 +1,4 @@
-// require npm module
+// require npm modules
 var expect = require('chai').expect;
 var sinon = require('sinon');
 
