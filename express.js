@@ -13,6 +13,18 @@ app.use(function (req, res, next) {
 }); // optional 2: allow CORS
 
 
+// set up endpoints
+app,get('url', function (req, res) {
+  
+});
+
+app.post('url', function (req, res) {
+  
+});
+
+// and many more endpoints ...
+
+
 var PORT = process.env.PORT || 3000;
 app.listen(PORT, function(){
   console.log('Listen to the port', PORT);
